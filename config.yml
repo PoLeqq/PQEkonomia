@@ -1,0 +1,11 @@
+messages:
+  money_info: "&aStan konta: &e%kasa%$"
+  money_info_others: "&aStan konta gracza %gracz%: &e%kasa%"
+  transactions:
+    add: '&aOtrzymałeś &e%kasa%$&a!'
+    remove: '&cUsunieto &e%kasa%$&c z konta!'
+    set: '&bUsawiono stan konta na &e%kasa%$&b!'
+error:
+  only_console: "&cTa komenda moze byc tylko wywolana przez konsole!"
+  no_player: "&cNie znaleziono gracza &e%arg%"
+  no_permission: "&cNie masz permisji!"

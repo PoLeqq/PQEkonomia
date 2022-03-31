@@ -1,0 +1,26 @@
+main: pl.poleq.pqekonomia.PQEkonomia
+name: PQEkonomia
+version: 1.0
+author: PoLeq
+
+commands:
+  addbal:
+    usage: "§c/<command> <gracz> <pln>"
+    description: Dodaje pieniadze graczowi
+  rembal:
+    usage: "§c/<command> <gracz> <pln>"
+    description: Usuwa pieniadze graczowi
+  setbal:
+    usage: "§c/<command> <gracz> <pln>"
+    description: Ustawia pieniadze graczowi
+  money:
+    permission: pqvault.pln
+    usage: "§c/pln <gracz>"
+    description: Wysyla informacje ile gracz ma pieniedzy
+    aliases: [pieniadze,kasa,hajs,balance,bal]
+
+permissions:
+  pqvault.pln:
+    default: true
+  pqvault.plnothers:
+    default: op
